@@ -1,8 +1,8 @@
 using System;
 
-namespace ApiCatalogoJogos.DTOViewModel
+namespace ApiCatalogoJogos.Entities
 {
-  public class JogoViewModel
+  public class Jogo
   {
     public Guid Id { get; set; }
     public string Nome { get; set; }

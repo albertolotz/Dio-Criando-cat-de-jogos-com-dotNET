@@ -12,6 +12,6 @@ namespace ApiCatalogoJogos.DTOInputModel
     public string Produtora { get; set; }
     [Required]
     [Range(1, 1000, ErrorMessage = "O preço dever ser entre 1 e 1000 reais")]
-    public string Preco { get; set; }
+    public double Preco { get; set; }
   }
 }
